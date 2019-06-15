@@ -1,0 +1,289 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+ul,li,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+/* 头部 */
+.head{
+	height:190px;
+	border-bottom: 4px solid #3aa747;
+}
+.header{
+	width:1200px;
+	height: 100%;
+	margin:0 auto;
+}
+.ding{
+	width:1200px;
+	height: 28px;
+	color： #0d0408;
+	margin-top: 10px;
+}
+.ding img{
+	margin-top: 4px;
+	margin-right:10px;
+	float: right;
+}
+.ding a{
+	color: #0d0408;
+	font-size: 14.78px;
+	font-weight: 700;
+	margin-left:25px;
+}
+select{
+	border-style:none;
+}
+.ding span a{
+	margin-left:10px;
+}
+/* 头部中间 */
+.zhong{
+	height: 158px;
+}
+.zhong span{
+	line-height: 151px;
+}
+.logos{
+	margin-top:35px;
+	margin-left:0px;
+	float: left;
+}
+.carts{
+	margin-top:64px;
+	margin-right:0px;
+	float: right;
+}
+.inp{
+	width:540px;
+	height:45px;
+	margin:52px 0 0px 174px ;
+	float:left;
+	border:1px solid #373741;
+}
+.inp img{
+	margin-right:11px;
+	margin-top:4px;
+	border-left:none;
+	float: right;
+}  
+.inp input{
+	width:477px;
+	height:45px;
+	border:1px solid #373741;
+	border-right:2px solid #ccc;
+	border-top:0px;
+	border-left:0px;
+	border-bottom:0px;
+	text-align: center;
+	font-size:14.78px;
+	color:#dfdfdf;
+}
+/* 头部最下 */
+.xia{
+	width:1200px;
+	float: left;
+	height: 41px;
+	margin-top:20px;	
+}
+.quanbu{
+	margin:0 18px 0px 18px;
+	float:left;
+}
+.xia a{
+	margin-left:70px;
+	float:left;
+	line-height:41px;
+	font-size:14.78px;
+	color:#050505;
+}
+.xia a:hover{
+	color:#3aa747;
+	border-bottom: 3px solid #3aa747;
+}
+
+/* 右侧固定定位部分 */
+.cui{
+    width: 76px;
+    height: 590px;
+    position: fixed;
+    right: 2px;
+    top: 202px;
+}
+.cui li{
+    background-color: #050505;
+    height: 119px;
+    text-align: center;
+    line-height:150px;
+    border-bottom: 2px solid #595e5d;
+}
+.cui img{
+    margin-top: 9px;
+}
+.cui li:last-child{
+    border-bottom: none;
+}
+
+.main{
+	width:1200px;
+	height: 100%;
+	margin:0 auto;
+}
+.cr {
+	height:60px;
+	width:1173px;
+	margin-left: 27px;
+	line-height:60px;
+	font-size: 18px;
+	color:#000;
+}
+.yushi{
+	font-size: 14px;
+	color:#5c5a5a;
+    margin-left:14px;	
+}
+.gongji{
+	font-size:14px;
+	color:#8d8d8d;
+	line-height:80px;
+	float:right;
+}
+.lan{
+	width:1200px;
+	height: 137px;
+	font-size: 16px;
+	border:1px solid #ccc;
+	border-bottom: none;
+}
+.lan1{
+	width:1200px;
+	height:45px;
+	border-bottom: 1px solid #ccc;
+}
+.lan1li:first-child{
+	width: 100px;
+	height: 45px;
+	line-height:45px;
+	text-align:center; 
+	background-color: #e5e5e5;
+	margin-left:0px;
+	float: left;
+}
+.lan1 li{
+	width:124px;
+	height: 45px;
+	text-align:center;
+	text-align:center;
+	line-height:45px;
+	float:left;
+}
+.lan1 a{
+	color:#737373;
+}
+.lan1 a:visited{
+	color:#3aa747;
+}
+/* 八个图片 */
+.png{
+	margin-top:30px;margin-left:0;
+	float:left;
+}
+.png li{
+	width:270px;
+	height: 292px;
+	position: relative;
+	text-align:center;
+	margin: 30px 15px 0 15px ;
+	float:left; 
+}
+.png p{
+	width:270px;
+	height: 50px;
+	padding-top:4px;
+	margin-top:240px;
+	background-color: #4c4c4c;
+	opacity:0.9;
+	font-size: 14.83px;
+	color:#fff;
+	float:left;
+}
+.png p:hover{
+	margin-top: 0;
+	line-height: 40px;
+	padding-top:120px;
+	width:270px;
+	height:172px;
+	font-size:22.14px;
+	background-color: #4c4c4c;	
+}
+/* 底部 */
+.jz1{
+	height:102px;
+	background-color: #f5f5f5;
+}
+.jz2{
+	height:100px;
+	background-color: #323232;
+	font-size: 14px;
+	color:#fff;
+}
+.jz1 ul{
+	width:1200px;
+	margin: 0 auto;
+}
+.jz1 li{
+	width:299px;
+	height:50px;
+	margin-top: 30px;
+	margin-left: 0px;
+	float: left;
+	border-right:1px solid #e0e0e0 ;
+}
+.jz1 li:last-child{
+	border:none;
+}
+.jz1 li img{
+	margin-left: 40px;
+	float: left;
+}
+.jz1 li p{
+	margin-left:20px;
+	float:left;
+	font-size: 19px;
+	color:#333;
+}
+.jz1 li span{
+	margin-left:20px;
+	float:left;
+	font-size:13px;
+	color:#4f4f4f;
+}
+.jz2 ul{	
+	width:1200px;
+	margin:0 auto;
+	padding-top:32px;
+}
+.jz2 li{
+	float:left;
+}
+.jz2 li:first-child{
+	margin-left:234px;
+}
+.jz2 li span{
+	margin-left:14px;
+	margin-right:14px;
+}
+.least{
+	text-align: center ;
+	margin-top: 32px;
+}
+.least span{
+	margin-left:5px;
+}
+.least span:first-child{
+	margin-left:16px;
+}
