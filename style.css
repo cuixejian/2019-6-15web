@@ -90,12 +90,21 @@ select{
 	height: 41px;
 	margin-top:20px;	
 }
-.quanbu{
-	margin:0 18px 0px 18px;
+#quanbu{
+	display:block;
+	margin:0 18px 0px 0px;
 	float:left;
 }
+.xia a:first-child:hover{
+	margin:0 0 0 18px;
+	float:left;
+	padding-left: 0px;
+	padding-right: 0px;
+	border:none;
+}
 .xia a{
-	margin-left:70px;
+	margin-left:35px;
+	margin-right:35px;
 	float:left;
 	line-height:41px;
 	font-size:14.78px;
@@ -103,6 +112,10 @@ select{
 }
 .xia a:hover{
 	color:#3aa747;
+	margin-left:10px;
+	margin-right:10px;
+	padding-right: 25px;
+	padding-left: 25px;
 	border-bottom: 3px solid #3aa747;
 }
 .banner{
@@ -112,6 +125,7 @@ select{
 	background-repeat:no-repeat;
 	background-position:center;
 }
+
 /* 右侧固定定位部分 */
 .cui{
     width: 76px;
